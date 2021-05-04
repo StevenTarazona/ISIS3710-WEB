@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Titulo</h1>
+        <img src="img.jpg" alt="imagen" height="150">
+        <nav>
+            <ul>
+                <li><a href="#msj">Mensaje de bienvenida</a></li>
+                <li><a href="#bio">Datos biográficos</a></li>
+                <li><a href="#acad">Datos académicos</a></li>
+                <li><a href="#si">Sitios de interés</a></li>
+                <li><a href="#form">Formulario de contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="msj">
+            <h2>Mensaje de bienvenida</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, alias. Hic, temporibus voluptas autem
+                ad
+                sunt repellendus ut ab minus nulla itaque a nihil nemo laboriosam quasi, sint cum necessitatibus, quae
+                voluptate ipsum at? Neque temporibus sequi quidem excepturi unde, aperiam alias rerum porro iste.
+                Tempore
+                saepe sit libero doloribus!</p>
+        </div>
+        <div id="bio">
+            <h2>Datos biográficos</h2>
+            <table>
+                <tr>
+                    <td>Dato1</td>
+                    <td>Valor1</td>
+                </tr>
+                <tr>
+                    <td>Dato2</td>
+                    <td>Valor2</td>
+                </tr>
+                <tr>
+                    <td>Dato3</td>
+                    <td>Valor3</td>
+                </tr>
+            </table>
+        </div>
+        <div id="acad">
+            <h2>Datos académicos</h2>
+            <ul>
+                <li>Dato1</li>
+                <li>Dato2</li>
+                <li>Dato3</li>
+            </ul>
+        </div>
+        <div id="si">
+            <h2>Sitios de interés</h2>
+            <h3>Videos favoritos</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zc2i77rAixU" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h3>Enlaces de interés</h3>
+            <a href="https://www.google.com.co">Google</a>
+            <h3>Imágenes</h3>
+            <img src="http://placehold.it/200x200" alt="Imagen1">
+            <img src="http://placehold.it/200x200" alt="Imagen2">
+            <img src="http://placehold.it/200x200" alt="Imagen3">
+            <img src="http://placehold.it/200x200" alt="Imagen4">
+        </div>
+        <div id="form">
+            <h2>Formulario de contacto</h2>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">Correo electronico:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                    <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li>
+                        <button type="submit">Envia tu mensaje</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p>Correo: ys.tarazona@uniandes.edu.co</p>
+    </footer>
+</body>
+
+</html>

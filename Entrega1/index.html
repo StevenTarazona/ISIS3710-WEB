@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Buen trabajo, me gustó mucho la distribución, agregue el resultado de Validator-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Tarazona</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#333333">
+    <meta name="msapplication-TileColor" content="#333333">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/8d6b057db5.js" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-custom  navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h3>Steven Tarazona</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#s1">Who Am I<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#s2">My Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#s3">My Interests / Hobbies / Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#s4">Education And Experience</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Review - Las diferentes partes de la página deberían ser secciones (section) pues cada una habla de un tema diferente -->
+
+    <main class="container">
+        <div class="card mb-4" id="s1">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="img/img.jpg" class="card-img perfil-img" alt="perfil">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title">Who Am I</h2>
+                        <p class="card-text">My name is Yeisson Steven Tarazona Bernal, I am a computer science student.
+                        </p>
+                        <h3>E-mail</h3>
+                        <!--Tiene dos atributos target intente dejar solo 1-->
+                        <a target="_top" href="mailto:ys.tarazona@uniandes.edu.co" target="_blank">
+                            <p class="card-text">ys.tarazona@uniandes.edu.co</p>
+                        </a>
+                        <h3>Instagram</h3>
+                        <a href="https://www.instagram.com/steven_tarazona_" target="_blank">
+                            <p class="card-text">@steven_tarazona</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Excelente uso y distribucion de cards en el layout-->
+        <div class="card mb-4" id="s2">
+            <div class="card-body">
+                <h2 class="card-title">My Projects</h2>
+                <hr>
+                <div class="row align-items-end">
+                    <!--Demasiado ingenioso esta forma de meter las imagenes como mini visualizaciones en la pagina, excelente. -->
+                    <div class="col-12 col-md-6 my-2">
+                        <!--Yo cambiaria el tamano de estos subtitulos por css para que no se vean del mismo tamano que el titulo...-->
+                        <h3>Web Aplication in Go</h3>
+                        <div class="overflow-auto ar-container">
+                            <a href="https://redcarpet.film/" target="_blank"><img width="100%" height="100%" class="img-fluid ar-content" src="img/redcarpet.png" alt="RedCarpe"><!--las imagenes no necesitan etiqueta de cierre --></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 my-2">
+                        <h3>Static Site with Bootstrap</h3>
+                        <div class="overflow-auto ar-container">
+                            <a href="https://steventarazona.github.io/" target="_blank"><img width="100%" height="100%" class="img-fluid ar-content" src="img/gameon.png" alt="GameON"><!--las imagenes no necesitan etiqueta de cierre --></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row px-0">
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100" id="s3">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">My Interests / Hobbies / Skills</h2>
+                        <hr>
+                        <div class="card white mt-4">
+                            <div id="collapse1" class="collapse" aria-labelledby="heading-collapsed">
+                                <div class="ar-container">
+                                    <a href="https://www.amazon.com/-/es/Brandon-Sanderson/dp/8498726131"
+                                        target="_blank"><img class="card-img-top ar-content cover-img"
+                                            src="https://images-na.ssl-images-amazon.com/images/I/91a4czYsaJL.jpg"
+                                            width="100%" height="100%" alt="Mistborn"></a>
+                                </div>
+                            </div>
+                            <h5 class="card-header ">
+                                <a class="collapsed d-block link-unstyled" data-toggle="collapse" href="#collapse1"
+                                    aria-expanded="true" aria-controls="collapse1">
+                                    <i class="fa fa-chevron-up float-right"></i>
+                                    Literature
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="card white mt-4">
+                            <div id="collapse2" class="collapse" aria-labelledby="heading-collapsed">
+                                <div class="ar-container">
+                                    <!--Se puede incluir en el archivo css varios de los atributos para que el HTML sea mas legible-->
+                                    <iframe width="100%" height="100%" class="ar-content"
+                                        src="https://www.youtube-nocookie.com/embed/-kdltv_CSHE" frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <h5 class="card-header">
+                                <a class="collapsed d-block link-unstyled" data-toggle="collapse" href="#collapse2"
+                                    aria-expanded="true" aria-controls="collapse2">
+                                    <i class="fa fa-chevron-up float-right"></i>
+                                    Shows
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="card white mt-4">
+                            <h5 class="card-header">Video games</h5>
+                        </div>
+                        <div class="card white mt-4">
+                            <h5 class="card-header">Software development</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100" id="s4">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">Education And Experience</h2>
+                        <hr>
+                        <h3 class="card-title">Education</h3>
+                        <p class="card-text">Undergraduate student of Computer science at <a
+                                href="https://uniandes.edu.co/" target="_blank">Universidad de los Andes</a></p>
+                        <h3 class="card-title">Tools</h3>
+                        <p class="card-text">Eclipse. MS Visual Studio, Goland</p>
+                        <h3 class="card-title">Database management</h3>
+                        <p class="card-text">Oracle, MySQL</p>
+                        <h3 class="card-title">Languages</h3>
+                        <p class="card-text">Java, Python, Go, HTML, CSS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Yo agregaria un footer con mas cosas, de pronto otra forma de navegacion o quiza un back to top-->
+    <footer class="py-4">
+        <div class="container">
+            <p class="m-0 text-center text-white">ys.tarazona@uniandes.edu.co</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

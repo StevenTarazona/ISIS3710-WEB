@@ -1,0 +1,77 @@
+body {
+  background-color: #121212;
+  padding-top: 5rem;
+}
+
+#s1, #s2, #s3, #s4 {
+  scroll-margin-top: 5rem;
+}
+
+.card,
+footer,
+.navbar-custom {
+  background-color: #2E4057; /*cambio de color porque no se veia muy bien en solo negro y gris*/ 
+  color: lightgray;
+}
+
+.perfil-img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.cover-img {
+  object-fit:cover;
+  object-position: 50% 90%;
+}
+
+.navbar-custom {
+  border-bottom: 2px solid #121212;
+  margin-bottom: 100px !important;
+}
+
+.white {
+  background-color: gray;
+  color: lightgray;
+  border: none;
+  font-weight: bolder;
+}
+
+hr {
+  border-color: #121212;
+}
+
+.link-unstyled:link,
+.link-unstyled:visited,
+.link-unstyled:hover,
+.link-unstyled:active {
+  text-decoration: none; 
+  color: black; /*cambio de color porque no se veia con el fondo*/
+}
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+
+.ar-container {
+  position:relative;
+  padding-bottom:56.25%;
+}
+
+.ar-content{
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+
+.card-header { /* cambio de estilo y color para que resalte*/
+  background-color: white;
+  color: black
+
+}
+h5{
+  color:black
+}

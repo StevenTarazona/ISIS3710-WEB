@@ -1,0 +1,20 @@
+
+body {
+    font-weight: bold;
+}
+.edad {
+    color: orangered;
+    font-weight: bolder;
+    font-size: large;
+}
+input[type="text"] {
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: greenyellow;
+}
+input[type="button"]{
+    font-size: small;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+}

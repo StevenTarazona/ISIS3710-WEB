@@ -1,0 +1,25 @@
+div {
+    text-align: center;
+}
+.banner {
+    background-color:#5b493c;
+}
+.lMenu {
+    background-color:#f99a3e;
+}
+.tMenu {
+    background-color:#c39182;
+}
+.MC {
+    background-color:#F2F2F2;
+    padding: 5em;
+}
+.rPh {
+    background-color:#C5697A;
+}
+.bPh {
+    background-color:#00A2B6;
+}
+.footer {
+    background-color:#5b493c;
+}

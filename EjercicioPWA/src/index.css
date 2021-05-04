@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: brown;
+	color: #fff;
+	text-align: center;
+	display: grid;
+	align-items: center;
+	font-family: 'Montserrat';
+	font-size: 2em;
+	padding: 2em;
+}
+
+body, html {
+	height: calc(100% - 4em);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 16px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image {
+	width: 40%;
+  display: inline-block;
+}

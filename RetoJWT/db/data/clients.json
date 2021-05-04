@@ -1,0 +1,22 @@
+[
+  {
+    "username": "admin",
+    "password": "5f4dcc3b5aa765d61d8327deb882cf99",
+    "rol": "admin"
+  },
+  {
+    "username": "client1",
+    "password": "a165dd3c2e98d5d607181d0b87a4c66b",
+    "rol": "write"
+  },
+  {
+    "username": "client2",
+    "password": "2c66045d4e4a90814ce9280272e510ec",
+    "rol": "read"
+  },
+  {
+    "username": "client3",
+    "password": "c27af3f6460eb10979adb366fc7f6856",
+    "rol": "read"
+  }
+]

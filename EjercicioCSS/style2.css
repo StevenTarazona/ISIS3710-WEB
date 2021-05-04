@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+h2, .azul {
+    color: blue;
+}
+p {
+    text-align: center;
+}
+.naranja {
+    color: orange;
+}
+.negrilla {
+    font-weight: bold;
+}
